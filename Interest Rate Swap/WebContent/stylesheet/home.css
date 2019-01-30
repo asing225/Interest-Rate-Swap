@@ -1,0 +1,55 @@
+h3
+{
+	text-align:center;
+	letter-spacing:2px;
+	color:blue;
+}
+
+
+
+
+legend{
+	text-align: center;
+}
+label{
+	width: 40%;
+	margin: 2%;
+	float: left;
+}
+input
+{
+	width:40%;
+	margin:2%
+}
+input[type="submit"]
+{
+	width:42%;
+	margin-left:46%;
+	margin-top:2%;
+	margin-right:2%;
+	margin-bottom:2%;
+}
+fieldset#customer
+{
+	width: 75%;
+	height:50%;
+	border: 2px solid red;
+	margin: 20%;
+}
+fieldset#login
+{
+	width: 25%;
+	height:25%;
+	border: 2px solid red;
+	margin-left: 50%;
+	margin-top: 20%;
+	background: url(../resources/Chrysanthemum.jpg)no-repeat center top;
+}
+
+.headstyle
+{
+	text-align:centre;
+	letter-spacing:2px;
+	color:red;
+}
+	
