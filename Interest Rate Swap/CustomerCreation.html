@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link type="text/css" rel="stylesheet" href="styles/home.css">
+<script type="text/javascript" src="scripts/passwordcheck.js"></script>
+</head>
+<body>
+<section>
+
+<fieldset id="customer">
+<legend>Customer Creation</legend>
+<label for="customerid">Customer ID</label>
+<input id="customerid" type ="number" min="1000" max="10000" required title="ID Required">
+<label for="customername">Customer Name</label>
+<input id="customername" type ="text" required title="Name Required">
+<label for="photo">Profile photo</label>
+<input id="photo" type ="file">
+<label for ="address">Address</label>
+<input id="address" type ="text"required title="Address Required">
+<label for ="dob">DOB</label>
+<input id="dob" type ="date" min="1994-01-01" max="2015-12-31">
+<label for ="email">Email</label>
+<input id="email" type ="email" placeholder="johnx@example.com" required title="email required">
+<label for ="phoneno">Phone Number</label>
+<input id="phoneno" type ="text" PATTERN="^\d{2}[\-]d{3}[\-]d{8}$" placeholder="91-144-23456789" title="Phone number required">
+<label for ="country">Country</label>
+<input id="country" type ="text" list="countrylist">
+<input type="button" value="Create" onclick="GetData()"> 
+<a href="NextPage.html">Confirm Data</a>
+</fieldset>
+
+
+
+<datalist id="countrylist">
+<option>India</option> 
+<option>Pakistan</option> 
+<option>SriLanka</option> 
+<option>Singapore</option>
+<option>US</option>  
+</datalist>
+</section>
+</body>
+</html>
